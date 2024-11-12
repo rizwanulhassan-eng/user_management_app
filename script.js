@@ -23,8 +23,6 @@ const renderUsers = () => {
 
 // Function to add a user to localStorage
 const addUser = function() {
-    console.log(this)
-    console.log(this.name);
     const users = JSON.parse(localStorage.getItem('users')) || [];
     let name=this.name;
     let email=this.email;
